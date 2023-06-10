@@ -27,7 +27,7 @@ class About extends Component {
             </div>
           </div>
           <div className="team-member">
-            <img src={process.env.PUBLIC_URL + '/img/members/z4417239505154_4ba65ed816df584a207d0419902f2bb4.jpg'} alt="Nguyễn Thiện Ngôn" className="team-member-image" />
+            <img src={process.env.PUBLIC_URL + '/img/members/z4418764576035_577f450d84a3e4ab4405cf4ab9148805.jpg'} alt="Nguyễn Thiện Ngôn" className="team-member-image" />
             <div className="team-member-details">
               <h3 className="team-member-name">Nguyễn Thiện Ngôn</h3>
               <p className="team-member-role">Back-end</p>
@@ -45,7 +45,7 @@ class About extends Component {
           <div className="team-member">
             <img src={process.env.PUBLIC_URL + '/img/members/z3724710153534_c02d27ab7cd51786128d890574b03af9.jpg'} alt="Thân Văn Hoàng" className="team-member-image" />
             <div className="team-member-details">
-              <h3 className="team-member-name">Thân Văn Hoàng</h3>
+              <h3 className="team-member-name">Nguyễn Thiện Ngôn</h3>
               <p className="team-member-role">Front End</p>
               <p className="team-member-info">front-end, viết API.</p>
             </div>

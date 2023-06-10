@@ -18,9 +18,8 @@
 }
 
 .team-member-image {
-  width: 250px; /* Tăng kích thước ảnh */
-  height: 250px; /* Tăng kích thước ảnh */
+  width: 310px;
+  height: 469px;
   object-fit: cover;
-  border-radius: 50%;
   margin-bottom: 10px;
 }
