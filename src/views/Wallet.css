@@ -1,0 +1,56 @@
+.wallet-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .wallet-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wallet-frame {
+    flex-basis: 24%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wallet-child {
+    position: relative;
+  }
+  
+  .wallet-child-image {
+    position: relative;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 184px;
+    cursor: pointer;
+    width: 193px;
+  }
+  
+  .wallet-child-image img {
+    width: 55%; /* Giảm kích thước ảnh xuống 80% */
+    height: auto;
+    object-fit: cover;
+  }
+
+
+  
+  .wallet-child-title {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+  }
+  

@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './Product.css';
+import { Link } from 'react-router-dom';
 
 class Product extends Component {
+  runPage1 = () => {
+    
+  };
   render() {
     return (
       <div className="product-container">
@@ -13,7 +17,7 @@ class Product extends Component {
           <p className="product-description">Coin price: Coin value 1</p>
           <p className="product-description">Price: Money value 1</p>
           <div className="product-buttons">
-            <button className="product-button">View Info</button>
+          <Link to="/page1" className="product-button">View Info</Link>
             <button className="product-button">Buy Now</button>
           </div>
         </div>

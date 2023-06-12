@@ -5,6 +5,7 @@
 }
 
 .product {
+  background: antiquewhite;
   flex-basis: calc(30.33% - 11px);
   display: flex;
   flex-direction: column;
@@ -14,6 +15,7 @@
   border: 1px solid #ccc;
   margin-right: 20px;
   margin-bottom: 20px;
+  border-radius: 22px;
 }
 
 .product-image {
@@ -21,6 +23,7 @@
   height: 100%;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 16px;
 }
 
 .product-title {

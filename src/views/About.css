@@ -15,6 +15,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-top: 16%;
+  background: antiquewhite;
+  border-radius: 37px;
 }
 
 .team-member-image {
@@ -22,4 +25,5 @@
   height: 469px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 25px
 }
