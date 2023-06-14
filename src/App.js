@@ -4,6 +4,7 @@ import Home from './views/Home';
 import About from './views/About';
 import Page1 from './views/page/Page1';
 import Page2 from './views/page/Page2';
+
 class App extends Component {
   render() {
     return (
